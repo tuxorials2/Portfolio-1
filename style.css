@@ -9,3 +9,16 @@ html {
     overflow:hidden;
     overflow-y:hidden;
 }
+@media only screen and (max-width:1440px){
+    html {
+        overflow:auto;
+        overflow-y:auto;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #main {
+        padding:14rem 0 24rem 0;
+        text-align:center;
+    }
+}
